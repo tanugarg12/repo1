@@ -1,0 +1,6 @@
+// event delegation
+
+let ul= document.querySelector('ul')
+ul.addEventListener("click",(e)=>{
+    console.log(e.target.textContent)
+})
